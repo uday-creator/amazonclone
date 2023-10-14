@@ -1,0 +1,32 @@
+.payment {
+    background-color: white;
+}
+
+.payment_container>h1 {
+    background-color: lightgray;
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+
+.payment_container>h1 a {
+    text-decoration: none;
+}
+
+.payment_section {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.payment_title {
+    flex: 0.2;
+}
+
+.payment_address,
+.payment_items,
+.payment_details {
+    flex: 0.8;
+}
